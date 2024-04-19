@@ -93,7 +93,7 @@ def application(environ, start_response):
     else:
         secret_value = get_secret()
         response = json.dumps(secret_value)
-        print response
+        print(response)
         #response = welcome
     start_response("200 OK", [
         ("Content-Type", "text/html"),

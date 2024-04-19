@@ -1,6 +1,7 @@
 import logging.handlers
 import boto3
 import base64
+import json
 from botocore.exceptions import ClientError
 
 # Create logger

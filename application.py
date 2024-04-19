@@ -26,7 +26,7 @@ welcome = """{'info': 'hello world'}"""
 def get_secret():
 
     secret_name = "pjatk/secret"
-    region_name = "eu-west-1"
+    region_name = "eu-central-1"
 
     # Create a Secrets Manager client
     session = boto3.session.Session()
